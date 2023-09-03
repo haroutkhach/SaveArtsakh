@@ -1,8 +1,8 @@
 ---
-title: "Felix and Lumina Tree"
+title: "I LOVE ARMENIA"
 subtitle: "A single tree, standing tall and majestic, seemed to possess a mysterious aura that attracted the curious."
 date: "2023-07-08"
-featured_image: "/images/tall-tree-potter.jpeg"
+featured_image: "/images/armenia.png"
 category: ["News"]
 author: "NSt Writer"
 ---
