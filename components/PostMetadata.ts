@@ -1,9 +1,13 @@
-export interface PostMetadata {
-  title: string;
-  date: string;
-  subtitle: string;
-  slug: string;
-  category: string[];
+export interface Article {
+  source: {
+    id: string | null;
+    name: string;
+  };
   author: string;
-  featured_image: string;
+  title: string;
+  description: string;
+  url: string;
+  urlToImage: string;
+  publishedAt: string;
+  content: string;
 }

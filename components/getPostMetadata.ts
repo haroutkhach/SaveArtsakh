@@ -1,27 +1,76 @@
 import fs from "fs";
-import matter from "gray-matter";
-import { PostMetadata } from "./PostMetadata";
+import { Article } from "./PostMetadata";
 
-const getPostMetadata = (): PostMetadata[] => {
-  const folder = "posts/";
-  const files = fs.readdirSync(folder);
-  const markdownPosts = files.filter((file) => file.endsWith(".md"));
+const getPostMetadata = (): Article[] => {
+  try {
+    // Read the 'news_articles.json' file
+    const jsonData = fs.readFileSync('news_articles.json', 'utf8');
+    
+    // Parse the JSON data
+    const data = JSON.parse(jsonData);
+    
+    // Access the 'articles' array from the JSON data
+    const articles = data.articles;
 
-  //Get gray matter data from each file
-  const posts = markdownPosts.map((fileName) => {
-    const fileContents = fs.readFileSync(`posts/${fileName}`, "utf8");
-    const matterResult = matter(fileContents);
-    return {
-      title: matterResult.data.title,
-      date: matterResult.data.date,
-      subtitle: matterResult.data.subtitle,
-      slug: fileName.replace(".md", ""),
-      category: matterResult.data.category,
-      author: matterResult.data.author,
-      featured_image: matterResult.data.featured_image,
-    };
-  });
-  return posts;
+    // Map the data to match the Article interface and return an array of articles
+    const articleData: Article[] = articles.map((article: any) => {
+      return {
+        source: {
+          id: null,
+          name: article.source.name,
+        },
+        author: article.author,
+        title: article.title,
+        description: article.description,
+        url: article.url,
+        urlToImage: article.urlToImage,
+        publishedAt: article.publishedAt,
+        content: article.content,
+      };
+    });
+
+    return articleData;
+  } catch (error) {
+    console.error("Error reading or parsing 'news_articles.json':", error);
+    return [];
+  }
 };
 
 export default getPostMetadata;
+
+
+// import fs from "fs";
+// import matter from "gray-matter";
+// import { Article } from "./PostMetadata";
+
+// const getPostMetadata = (): Article[] => {
+//   // const folder = "posts/";
+//   // const files = fs.readdirSync(folder);
+//   // const markdownPosts = files.filter((file) => file.endsWith(".md"));
+
+//   // //Get gray matter data from each file
+//   // const posts = markdownPosts.map((fileName) => {
+//   //   const fileContents = fs.readFileSync(`posts/${fileName}`, "utf8");
+//   //   const articles = matter(fileContents);
+//   const jsonData = fs.readFileSync('news_articles.json', 'utf8');
+//   const data = JSON.parse(jsonData);
+//   const articles = data.articles;
+//     return {
+//       source: {
+//         id: null, // You can set this to null or assign an appropriate value
+//         name: articles.name,
+//       },
+//       author: articles.author,
+//       title: articles.title,
+//       description: articles.subtitle, // Assuming subtitle maps to description
+//       url: articles.url,
+//       urlToImage: articles.featured_image, // Assuming featured_image maps to urlToImage
+//       publishedAt: articles.date, // Assuming date maps to publishedAt
+//       content: '', // You can assign content based on your data structure
+//     };
+//     };
+//   return posts;
+// };
+
+
+// export default getPostMetadata;
