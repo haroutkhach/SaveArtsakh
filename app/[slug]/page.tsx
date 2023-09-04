@@ -33,7 +33,7 @@ interface Article {
 }
 
 const getPostContent = (slug: string): Article | null => {
-  const file = 'newsarticles.json'; // Assuming the JSON file is in the same directory
+  const file = 'news_articles.json'; // Assuming the JSON file is in the same directory
 
   try {
     const jsonData = fs.readFileSync(file, 'utf8');
@@ -41,7 +41,7 @@ const getPostContent = (slug: string): Article | null => {
 
     // Assuming articles is an array of objects with titles that can be used as slugs
     const article = data.articles.find((article: Article) => article.title === slug);
-
+    
     if (article) {
       // You can return the article content here, or modify as needed
       return article;
@@ -166,6 +166,7 @@ function PostPage(props: any) {
           <div className="font-medium text-base md:text-lg text-gray-600 tracking-wide">
             & Published on {post.publishedAt}
           </div>
+
         </div>
         {/* Add a Link to navigate to a new page with the content */}
         <Link to={`/full-content/${slug}`} className="text-blue-500">
