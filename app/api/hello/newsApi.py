@@ -3,26 +3,41 @@ import json
 import os
 from dotenv import load_dotenv
 from urllib.parse import urlparse
-
+from keywordFinder import extractKeywords
+from imageAPI import getImageURL
+import requests
+from urllib.parse import urlparse
 load_dotenv()
-API_KEY = os.getenv("API_KEY")
+
+# TODO:
+# date changes automatically
+# not just one topic, maybe give option?
+#currently sorting by popularity
+
+NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 urlCall = ('https://newsapi.org/v2/everything?'
        'q=Artsakh&'
-       'from=2023-08-06&'
+       'from=2023-08-14&' 
        'language=en&'
        'sortBy=popularity&'
-       f'apiKey={API_KEY}')
+       f'apiKey={NEWS_API_KEY}')
 
 response = requests.get(urlCall)
+# Take all of this and put it into a separate file, send just the response
 
 if response.status_code == 200:
     data = response.json()  # Parse the JSON response
-    # Filter out articles with the title "removed" and extract URLs from the remaining articles
-    articles = [article for article in data["articles"] if article["title"] != "[Removed]" and article["urlToImage"] is not None]
+    articles = [article for article in data["articles"] if article["title"] != "[Removed]" and article["title"] not in articles]
+    for article in articles:
+        if article["urlToImage"] is None or isinstance(article["urlToImage"], str) and article["urlToImage"].endswith(".webp"):
+            keyword = extractKeywords(article["title"],1)
+            article["urlToImage"] = getImageURL(keyword)
+
     domains = [urlparse(article["urlToImage"]).netloc for article in articles[:50]]
     domains = [domain.decode("utf-8") if isinstance(domain, bytes) else domain for domain in domains]  # Convert bytes to strings if necessary
 else:
     print(f"Request failed with status code: {response.status_code}")
+
 
 # Write filtered articles to the "news_articles.json" file
 if response.status_code == 200:
@@ -43,29 +58,3 @@ else:
     print(f'Request failed with status code {response.status_code}')
 
 
-# import json
-# from urllib.parse import urlparse
-
-# # Function to extract domains from a list of URLs
-# def extract_domains_from_urls(url_list):
-#     allowed_domains = []
-#     for url in url_list:
-#         parsed_url = urlparse(url)
-#         domain = parsed_url.netloc
-#         allowed_domains.append(domain)
-#     return allowed_domains
-
-# # Read URLs from a text file (one URL per line)
-# input_file = "urls.txt"  # Replace with the path to your input file
-# with open(input_file, "r") as file:
-#     urls = file.read().splitlines()
-
-# # Extract domains from the URLs
-# domains = extract_domains_from_urls(urls)
-
-# # Write the list of domains to a JSON file
-# output_file = "allowedDomains.json"
-# with open(output_file, "w") as json_file:
-#     json.dump(domains, json_file, indent=4)
-
-# print(f"Domains extracted and saved to {output_file}")

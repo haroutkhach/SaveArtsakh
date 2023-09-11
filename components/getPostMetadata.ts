@@ -4,16 +4,13 @@ import { Article } from "./PostMetadata";
 const getPostMetadata = (): Article[] => {
   try {
     // Read the 'news_articles.json' file
-    const jsonData = fs.readFileSync('news_articles.json', 'utf8');
-    
+    const jsonData = fs.readFileSync('app/news/news_articles.json', 'utf8');
+     
     // Parse the JSON data
     const data = JSON.parse(jsonData);
-    
     // Access the 'articles' array from the JSON data
-    const articles = data.articles;
-
     // Map the data to match the Article interface and return an array of articles
-    const articleData: Article[] = articles.map((article: any) => {
+    const articleData: Article[] = data.map((article: any) => {
       return {
         source: {
           id: null,
