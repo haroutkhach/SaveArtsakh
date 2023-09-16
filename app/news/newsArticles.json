@@ -54,19 +54,6 @@
     {
         "source": {
             "id": null,
-            "name": "Yahoo Entertainment"
-        },
-        "author": "AVET DEMOURIAN",
-        "title": "Separatist parliament in Azerbaijan's breakaway Nagorno-Karabakh region elects new president",
-        "description": "Lawmakers in Nagorno-Karabakh, a breakaway Armenian-populated region of Azerbaijan, voted to elect a new separatist president on Saturday in a move that was ...",
-        "url": "https://finance.yahoo.com/news/separatist-parliament-azerbaijans-breakaway-nagorno-131804559.html",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/4xJ38UY09EB59FVSnLCIKA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTg-/https://media.zenfs.com/en/ap_finance_articles_694/97ba646ec54039461876ddca2231c5b2",
-        "publishedAt": "2023-09-09T13:18:04Z",
-        "content": "YEREVAN, Armenia (AP) Lawmakers in Nagorno-Karabakh, a breakaway Armenian-populated region of Azerbaijan, voted to elect a new separatist president on Saturday in a move that was strongly condemned b… [+2789 chars]"
-    },
-    {
-        "source": {
-            "id": null,
             "name": "Daily Signal"
         },
         "author": "Mary Margaret Olohan",
@@ -102,6 +89,19 @@
         "urlToImage": "https://static.hiphopdx.com/2023/09/snoop-dogg-accidentally-fuels-international-conflict-with-concert-blunder-1200x675.jpg",
         "publishedAt": "2023-09-05T14:45:17Z",
         "content": "Snoop Dogg has unintentionally ruffled some international feathers after he mistakenly referred to a territory in the South Caucasus as belonging to an enemy country.\r\nOn Monday (September 4), the We… [+3178 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Naturalnews.com"
+        },
+        "author": "Belle Carter",
+        "title": "U.S. must be careful in mediating Azerbaijan blockade of Armenian breakaway state â or be accused of complicity in genocide, experts caution",
+        "description": "The United States should take extra caution to avoid complicity in what is possibly an ongoing “genocide intent” against 120,000 Armenians living in Nagorno-Karabakh, experts warned the Tom Lantos Human Rights Commission, a bipartisan congressional human righ…",
+        "url": "https://www.naturalnews.com/2023-09-11-us-careful-mediating-azerbaijan-blockade-nagorno-karabakh.html",
+        "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2023/09/Starvation-Hunger-Famine-Bread.jpg",
+        "publishedAt": "2023-09-11T06:00:00Z",
+        "content": "The United States should take extra caution to avoid complicity in what is possibly an ongoing \"genocide intent\" against 120,000 Armenians living in Nagorno-Karabakh, experts warned the Tom Lantos Hu… [+5619 chars]"
     },
     {
         "source": {
@@ -255,7 +255,7 @@
         "title": "Karabakh separatist leader resigns amid deepening blockade crisis",
         "description": "The separatist head of the breakaway region of Nagorno-Karabakh has resigned amid widespread food and fuel shortages resulting from an almost year-long blockade of the territory by Azerbaijan. Arayik Haratyunyan, who is an ethnic Armenian, said in a statement…",
         "url": "https://biztoc.com/x/e299caa250d29029",
-        "urlToImage": "https://images.unsplash.com/photo-1622831984693-e1a97680e6b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0OTc2OTR8MHwxfHNlYXJjaHwxfHxrYXJhYmFraHxlbnwwfDB8fHwxNjk0Mzg4MzI2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+        "urlToImage": "https://images.unsplash.com/photo-1622831984693-e1a97680e6b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0OTc2OTR8MHwxfHNlYXJjaHwxfHxrYXJhYmFraHxlbnwwfDB8fHwxNjk0NTQ3MTg4fDA&ixlib=rb-4.0.3&q=80&w=1080",
         "publishedAt": "2023-09-02T22:08:11Z",
         "content": "The separatist head of the breakaway region of Nagorno-Karabakh has resigned amid widespread food and fuel shortages resulting from an almost year-long blockade of the territory by Azerbaijan.Arayik … [+312 chars]"
     },
@@ -268,22 +268,9 @@
         "title": "U.S. Diplomacy is Failing Armenia",
         "description": "After years of diplomatic dormancy, the U.S. has accelerated its efforts to facilitate a peace deal between Armenia and Azerbaijan. But short of ensuring a just peace, the only thing the Washington-backed talks appear to have produced is the emboldenment of A…",
         "url": "https://biztoc.com/x/61ea2ffa6d1269b9",
-        "urlToImage": "https://images.unsplash.com/photo-1526615735835-530c611a3d8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0OTc2OTR8MHwxfHNlYXJjaHwxfHxkaXBsb21hY3l8ZW58MHwwfHx8MTY5NDM5MDU3OHww&ixlib=rb-4.0.3&q=80&w=1080",
+        "urlToImage": "https://images.unsplash.com/photo-1526615735835-530c611a3d8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0OTc2OTR8MHwxfHNlYXJjaHwxfHxkaXBsb21hY3l8ZW58MHwwfHx8MTY5NDU0NzE4OXww&ixlib=rb-4.0.3&q=80&w=1080",
         "publishedAt": "2023-08-14T10:40:02Z",
         "content": "After years of diplomatic dormancy, the U.S. has accelerated its efforts to facilitate a peace deal between Armenia and Azerbaijan. But short of ensuring a just peace, the only thing the Washington-b… [+292 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Marketscreener.com"
-        },
-        "author": "Reuters",
-        "title": "Karabakh separatist leader resigns amid deepening blockade crisis",
-        "description": "(marketscreener.com) The separatist head of the breakaway region of Nagorno-Karabakh has resigned amid widespread food and fuel shortages resulting from an almost year-long blockade of the territory by Azerbaijan.https://www.marketscreener.com/quote/index/TOP…",
-        "url": "https://www.marketscreener.com/quote/index/TOPIX-INDEX-61714390/news/Karabakh-separatist-leader-resigns-amid-deepening-blockade-crisis-44761192/",
-        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
-        "publishedAt": "2023-09-02T14:43:48Z",
-        "content": "TBILISI (Reuters) - The separatist head of the breakaway region of Nagorno-Karabakh has resigned amid widespread food and fuel shortages resulting from an almost year-long blockade of the territory b… [+1684 chars]"
     },
     {
         "source": {
@@ -300,16 +287,16 @@
     },
     {
         "source": {
-            "id": "abc-news",
-            "name": "ABC News"
+            "id": null,
+            "name": "Marketscreener.com"
         },
-        "author": "AVET DEMOURIAN Associated Press",
-        "title": "Separatist parliament in Azerbaijan's breakaway Nagorno-Karabakh region elects new president",
-        "description": "Lawmakers in a breakaway Armenian-populated region of Azerbaijan have elected a new separatist president in a move that was strongly condemned by the Azerbaijani authorities",
-        "url": "https://abcnews.go.com/Business/wireStory/separatist-parliament-azerbaijans-breakaway-nagorno-karabakh-region-elects-103052606",
-        "urlToImage": "https://i.abcnewsfe.com/a/d53d6e48-c531-4541-a22b-323b3b95b2a8/wirestory_8c17f95af29c66638bcd38fb7fb02812_16x9.jpg?w=992",
-        "publishedAt": "2023-09-09T14:47:06Z",
-        "content": "YEREVAN, Armenia -- Lawmakers in Nagorno-Karabakh, a breakaway Armenian-populated region of Azerbaijan, voted to elect a new separatist president on Saturday in a move that was strongly condemned by … [+2789 chars]"
+        "author": "Reuters",
+        "title": "Explainer-What is happening between Armenia and Azerbaijan over Nagorno-Karabakh?",
+        "description": "(marketscreener.com) Tensions are running high again between Azerbaijan and Armenia over the territory of Nagorno-Karabakh, which has been the cause of two wars between them in the past three decades.https://www.marketscreener.com/news/latest/Explainer-What-i…",
+        "url": "https://www.marketscreener.com/news/latest/Explainer-What-is-happening-between-Armenia-and-Azerbaijan-over-Nagorno-Karabakh--44813795/",
+        "urlToImage": "https://img.zonebourse.com/reuters/2023-03/2023-03-05T184225Z_1_LYNXMPEJ24084_RTROPTP_3_ARMENIA-AZERBAIJAN-KARABAKH.JPG",
+        "publishedAt": "2023-09-11T12:17:49Z",
+        "content": "(Reuters) - Tensions are running high again between Azerbaijan and Armenia over the territory of Nagorno-Karabakh, which has been the cause of two wars between them in the past three decades.\r\n Here … [+3972 chars]"
     },
     {
         "source": {
@@ -320,7 +307,7 @@
         "title": "Starvation: The invisible genocide weapon",
         "description": "Several watchdog organizations... are accusing Azerbaijan of committing genocide against the 120,000 Armenians living in Nagorno-Karabakh. Historically known as Artsakh, this ancient Armenian region was brought under Azerbaijani rule in 2020. Modern day hosti…",
         "url": "https://freerepublic.com/focus/f-news/4180198/posts",
-        "urlToImage": "https://images.unsplash.com/photo-1596464716004-48206c3f2306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0OTc2OTR8MHwxfHNlYXJjaHwxfHxzdGFydmF0aW9ufGVufDB8MHx8fDE2OTQzOTA0NDV8MA&ixlib=rb-4.0.3&q=80&w=1080",
+        "urlToImage": "https://images.unsplash.com/photo-1596464716004-48206c3f2306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0OTc2OTR8MHwxfHNlYXJjaHwxfHxzdGFydmF0aW9ufGVufDB8MHx8fDE2OTQ1NDcxODl8MA&ixlib=rb-4.0.3&q=80&w=1080",
         "publishedAt": "2023-09-05T14:38:55Z",
         "content": "Skip to comments.\r\nStarvation: The invisible genocide weapongatestoneinstitute.org ^\r\n | 9/3/2023 0500 hrs\r\n | Raymond Ibrahim\r\nPosted on 09/05/2023 7:38:55 AM PDT by rktman\r\nSeveral watchdog organiz… [+2367 chars]"
     },
@@ -349,19 +336,6 @@
         "urlToImage": "https://d32r1sh890xpii.cloudfront.net/article/718x300/2023-08-28_qvljlktae4.jpg",
         "publishedAt": "2023-08-28T18:00:00Z",
         "content": "Following the latest BRICS meeting…\r\nThe 15th BRICS summit in…\r\nFrom August 22nd to 24th,…\r\nBy Eurasianet - Aug 28, 2023, 1:00 PM CDTCanada is raising its diplomatic profile in the Caucasus, as domes… [+5532 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Wnd.com"
-        },
-        "author": "WND Guest Columnist",
-        "title": "Starvation: The invisible genocide weapon",
-        "description": "By Raymond Ibrahim Note: This column first appeared at Gatestone Institute. Several watchdog organizations are accusing Azerbaijan of committing genocide against the 120,000 Armenians living in Nagorno-Karabakh. Historically known as Artsakh, this ancient Arm…",
-        "url": "https://www.wnd.com/2023/09/starvation-invisible-genocide-weapon/",
-        "urlToImage": "https://www.wnd.com/wp-content/uploads/2014/02/NorthCaucasus.jpg",
-        "publishedAt": "2023-09-04T22:49:46Z",
-        "content": "By Raymond Ibrahim\r\nNote: This column first appeared at Gatestone Institute.\r\n<ul><li>Several watchdog organizations are accusing Azerbaijan of committing genocide against the 120,000 Armenians livin… [+20657 chars]"
     },
     {
         "source": {
@@ -431,15 +405,15 @@
     {
         "source": {
             "id": null,
-            "name": "Protothema.gr"
+            "name": "NBC Bay Area"
         },
-        "author": "Newsroom",
-        "title": "Starvation: “The Invisible Genocide Weapon” – Azerbaijan is committing genocide against the 120,000 Armenians",
-        "description": "Historically known as Artsakh, this ancient Armenian region was brought under Azerbaijani rule in 2020",
-        "url": "https://en.protothema.gr/starvation-the-invisible-genocide-weapon-azerbaijan-is-committing-genocide-against-the-120000-armenians/",
-        "urlToImage": "https://en.protothema.gr/wp-content/uploads/2023/09/hgfd-150x150.png",
-        "publishedAt": "2023-09-05T01:32:02Z",
-        "content": "The thousand-year-old genocide of Armenians at the hands of Turkic peoples has reached a new level.\r\nSeveral watchdog organizations including the International Association of Genocide Scholars, Genoc… [+1219 chars]"
+        "author": "NBC Bay Area staff",
+        "title": "Bay Area’s Armenian community rally in San Francisco",
+        "description": "Hundreds gathered in San Francisco Sunday to demand an end to an illegal blockade endangering Armenians.",
+        "url": "https://www.nbcbayarea.com/news/local/armenian-community-rally-san-francisco/3314542/",
+        "urlToImage": "https://media.nbcbayarea.com/2023/09/Armenian-rights-rally-in-San-Francisco-1.jpg?quality=85&strip=all&resize=1200%2C675",
+        "publishedAt": "2023-09-11T05:04:41Z",
+        "content": "Hundreds gathered in San Francisco Sunday to demand an end to an illegal blockade endangering Armenians.\r\nThe rally in Union Square Plaza was the latest of several protests since last December.\r\nThat… [+517 chars]"
     },
     {
         "source": {
